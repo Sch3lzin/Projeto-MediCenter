@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <Title>MediCenter</Title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                   document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+<Body>
+    
+    <header>
+        <div class="container_header">
+            <div class="logo">
+                <a href=""><img src="Imagens/logo.png"/></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">PAGES</a></li>
+                        <li><a href="">DEPARTMENTS</a></li>
+                        <li><a href="">TIMETABLE</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsibe template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">If you need a doctor urgently outside of medicenter Opening 
+                        hours, call emergency appointment number for emergency service</div>
+                    <a href="">Read more →</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors Timetable</div>
+                    <div class="banner_desc">Here at medicenter we have individual doctor's lists.
+                        Click read more below to see services and current timetable for our doctors</div>
+                    <a href="">Read more →</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    <div class="banner_desc_infor">
+                        <div class="banner_desc_day">Monday - Friday</div>
+                        <div class="banner_desc_hours">8.00 - 17.00</div>
+                    </div>
+                    <div class="banner_desc_bar"></div>
+                   
+   
+                    <div class="banner_desc_infor">
+                        <div class="banner_desc_day">Saturday</div>
+                        <div class="banner_desc_hours">9.30 - 17.30</div>
+                    </div>
+                    <div class="banner_desc_bar"></div>
+
+                    <div class="banner_desc_infor">
+                        <div class="banner_desc_day">Sunday</div>
+                        <div class="banner_desc_hours">9.30 - 15.00</div>
+                    </div>
+                    <div class="banner_desc_bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article> 
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 JAN 23</div>
+                                    <div class="news_comments">8</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="/Imagens/medico.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">Lorem Ipsum is simply dummy text of the printing 
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard 
+                                    dummy text ever since the 1500s, when an unknown printer took a galley 
+                                    of type and scrambled it to make a type specimen book. It has survived 
+                                    not only five centuries, but also the leap into electronic typesetting, 
+                                    remaining essentially unchanged.</div>
+                            </a>
+                        </article>
+                        <article> 
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">07 JAN 23</div>
+                                    <div class="news_comments">4</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="/Imagens/medico.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">Lorem Ipsum is simply dummy text of the printing 
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard 
+                                    dummy text ever since the 1500s, when an unknown printer took a galley 
+                                    of type and scrambled it to make a type specimen book. It has survived 
+                                    not only five centuries, but also the leap into electronic typesetting, 
+                                    remaining essentially unchanged.</div>
+                            </a>
+                        </article>
+                        <article> 
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">03 JAN 23</div>
+                                    <div class="news_comments">7</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="/Imagens/medico.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">Lorem Ipsum is simply dummy text of the printing 
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard 
+                                    dummy text ever since the 1500s, when an unknown printer took a galley 
+                                    of type and scrambled it to make a type specimen book. It has survived 
+                                    not only five centuries, but also the leap into electronic typesetting, 
+                                    remaining essentially unchanged.</div>
+                            </a>
+                        </article>
+                        <article> 
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">01 JAN 23</div>
+                                    <div class="news_comments">6</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="/Imagens/medico.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">Lorem Ipsum is simply dummy text of the printing 
+                                    and typesetting industry. Lorem Ipsum has been the industry's standard 
+                                    dummy text ever since the 1500s, when an unknown printer took a galley 
+                                    of type and scrambled it to make a type specimen book. It has survived 
+                                    not only five centuries, but also the leap into electronic typesetting, 
+                                    remaining essentially unchanged.</div>
+                            </a>
+                        </article>
+                    </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departaments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_depart">
+                        <article>
+                        <a href=""><div class="widget_body_departaments"></div></a>
+                        </article>
+                        
+                        <article>
+                        <a href=""><div class="widget_body_departaments"></div></a>
+                        </article>
+
+                        <article>
+                        <a href=""><div class="widget_body_departaments"></div></a>
+                        </article>
+
+                        <article>
+                        <a href=""><div class="widget_body_departaments"></div></a>
+                        </article>
+
+                        <article>
+                        <a href=""><div class="widget_body_departaments"></div></a>
+                        </article>
+
+                        <article>
+                        <a href=""><div class="widget_body_departaments"></div></a>
+                        </article>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title_1">
+                            <div class="widget_title_text">Make an Appointment</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body_cont">
+                            <div class="widget_body_text" >Lorem Ipsum is simply dummy text of the 
+                                printing and typesetting industry.</div>
+                                <div class="widget_body_contact">
+                                    <div class="widget_body_bar"></div>
+                                    <div class="widget_body_text_1"><img class="widget_body_img" src="/Imagens/phone.png"><div class="widget_body_text_1_1">By phone: <strong>1-800-4300</strong></div></div>
+                                    <div class="widget_body_bar"></div>
+                                    <div class="widget_body_text_1"><img class="widget_body_img" src="/Imagens/email.png"><div class="widget_body_text_1_1">By e-mail: <a href="medicenter@mail.com">medicenter@mail.com</a></div></div>
+                                    <div class="widget_body_bar"></div>
+                                    <div class="widget_body_text_1"><img class="widget_body_img" src="/Imagens/rel.png"><div class="widget_body_text_1_1">Or <div class="widget_body_text_1_2"> fit in the form</div>on our contact us</div></div>
+                                    <div class="widget_body_bar"></div>
+                                </div>
+                        </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexcolumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        <div class="title_fm">
+                            Health Insurance
+                        </div>
+                        <div class="desc_fm">
+                            Here in medicenter we have individual ⇢
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        <div class="title_fm">
+                            Medical Records
+                        </div>
+                        <div class="desc_fm">
+                            Here in medicenter we have individual ⇢
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        <div class="title_fm">
+                            Online Bill Pay
+                        </div>
+                        <div class="desc_fm">
+                            Here in medicenter we have individual ⇢
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicent Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body_1">
+                            <div class="footer_desc">
+                                Mauris Adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+                            </div>
+                            <address>
+                                Medicenter Clinic <br>
+                                33 Farlane Street <br>
+                                Keilor East <br>
+                                VIC 3033, Australia
+                                <div class="address_contact">
+                                    <div>
+                                        +123 655 655 <br>
+                                        +123 755 755 <br>
+                                        <white>medicenter@mail.com</white>
+                                    </div>
+                                </div>
+                            </address>
+                            <div class="footer_icons">
+                                <div class="icon_footer">
+                                    <a href=""><img src="/Imagens/facebook.png" alt=""></a>
+                                </div>
+                                <div class="icon_footer">
+                                    <a href=""><img src="/Imagens/twitter.png" alt=""></a>
+                                </div>
+                                <div class="icon_footer">
+                                    <a href=""><img src="/Imagens/cinema.png" alt=""></a>
+                                </div>
+                                <div class="icon_footer">
+                                    <a href=""><img src="/Imagens/email.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Posts</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body_1">
+                            <div class="widget_body2">
+                                <div class="arrow">
+                                    ⇢
+                                </div>
+                                <div class="box_footer_desc2">
+                                    <div class="footer_desc2">
+                                        Mauris Adipiscing mauris fringilla turpis inter sed pulvinar nisi malesuada.
+                                    </div>
+                                    <div class="footer_desc_time2">
+                                        9 months ago
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget_body2">
+                                <div class="arrow">
+                                    ⇢
+                                </div>
+                                <div class="box_footer_desc2">
+                                    <div class="footer_desc2">
+                                        Lorem ipsum dolor sit amat velum.
+                                    </div>
+                                    <div class="footer_desc_time2">
+                                        10 months ago
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget_body2">
+                                <div class="arrow">
+                                    ⇢
+                                </div>
+                                <div class="box_footer_desc2">
+                                    <div class="footer_desc2">
+                                        Mauris Adipiscing mauris fringilla turpis inter sed pulvinar nisi malesuada.
+                                    </div>
+                                    <div class="footer_desc_time2">
+                                        about a year ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body_1">
+                            <div class="widget_body2">
+                                <div class="arrow">
+                                    ⇢
+                                </div>
+                                <div class="box_footer_desc2">
+                                    <div class="footer_desc2 desc_gray">
+                                        @chatbodmathieu Ok, good! I'm glad to hear that! Have a nice day!
+                                    </div>
+                                    <div class="footer_desc_time2">
+                                        11 days ago
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget_body2">
+                                <div class="arrow">
+                                    ⇢
+                                </div>
+                                <div class="box_footer_desc2">
+                                    <div class="footer_desc2 desc_gray">
+                                        @chabodmathieu Support for all our items is conducted through our Support Forum - <a href="">https://t.co/1lntTxsJ</a> Please use the forum to get help. Thx
+                                    </div>
+                                    <div class="footer_desc_time2">
+                                        11 days ago
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget_body2">
+                                <div class="arrow">
+                                    ⇢
+                                </div>
+                                <div class="box_footer_desc2">
+                                    <div class="footer_desc2 desc_gray">
+                                        A huge thanks to hall who support our work and to hall of our buyers. Our Gym WordPress Theme - <a href="">http://t.co/szgTwgVU</a> just reached 1000 sales!
+                                    </div>
+                                    <div class="footer_desc_time2">
+                                        22 days ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                © Copyright - <white>Medicenter Template</white> by <white>QuanticaLabs</white> - Redone by <white>Sch3lzin</white>
+            </div>
+        </div>
+    </footer>
+
+</Body>
+</html>
